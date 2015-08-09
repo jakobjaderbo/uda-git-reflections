@@ -1,0 +1,42 @@
+Under första lektionen fick vi manuellt och med hjälp av verktyget FC hitta fel i filer som ändrats.
+
+för att använda verktyget FC i windows: 
+
+-gå in i rätt mapp med hjälp av kommandot 'cd'
+-använd syntaxen 'fc filename1 filename2'
+
+i unixbaserade system används istället verktyget diff som följer
+
+'diff -u filename1 filename2'
+
+Att på så sätt kunna jämföra två versioner och bara behöva titta på rader som faktiskt ändrats gör det enkelt att hitta 
+eventuela fel som dykit upp mellan dessa versioner.
+
+Att ha tillgång till hela historiken av filändringar gör det möjligt att enkelt gå tillbaka till gamla versioner,
+se vad som ändrats vid vilken tidpunkt och överlag reflektera över hur ens arbete fortskridit.
+
+Exempel på versionshantering är
+
+- manuellt sparande
+- dropbox
+- google docs
+- wikipedias edit history
+- git
+- SVN
+- mercurial
+
+kursen kommer främst att fokusera på git.
+
+När man väljer hur ofta man vill göra en commit i git, det vill säga spara en ny version, är en bra riktlinje att göra en ny version
+för varje logiskt sammanhängande ändring.
+
+Ibland har man flera filer vars ändringar logiskt hör ihop, exempelvis en html-fil och dess motsvarande css-fil.
+I såna fall är det lämpligt att deras versionshantering känner till att de ändras tillsammans.
+I git löser man detta genom att ha dem i samma 'repository'.
+
+Kör du 'git log --stat' i ett repository så ser du vilka filer som ändrats,
+Kör du 'git diff id1 id2' ser du skillnaden mellan filerna vid dessa två versionstillfällen.
+
+Eftersom du alltid har möjlighet att backa om du gör fel har du betydligt större frihet att experimentera och göra stora ändringar.
+Ifall det skulle visa sig att det inte fungerar behöver du bara gå tillbaka och ingen skada är skedd.
+
