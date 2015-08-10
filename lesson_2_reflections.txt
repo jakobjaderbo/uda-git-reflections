@@ -1,0 +1,8 @@
+För att omvandla en folder till ett git repository kör du kommandot 'git init' i den foldern.
+
+När kommandot 'git init' körs skapas en dold folder med namnet '.git' som håller reda på alla filer som git behöver
+för att göra sitt jobb. Det skapas dock ingen 'commit' automatiskt, det får du göra manuellt.
+
+Med hjälp av kommandot 'git add' kan man ta en fil från 'working directory' och lägga den i 'staging area'.
+Filer i 'staging area' är de som kommer att läggas in i en 'commit', på så sätt kan man kontrollera precis vilka
+filer som ska uppdateras vid varje commit.
