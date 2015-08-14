@@ -1,4 +1,4 @@
-För att lägga upp filer på Github behöver du ett konto och ett repository där. 
+﻿För att lägga upp filer på Github behöver du ett konto och ett repository där. 
 När du har detta använder du öljande kommandon.
 
 'git remote' (listar vilka remotes du har lagt till i git)
@@ -7,4 +7,16 @@ När du har detta använder du öljande kommandon.
 
 Att ha filer i molnet på github ger dig frihet att arbeta från olika datorer,
 underlättar samarbete med andra och ger dig en backup då du har en kopia av all din historik i git i molnet.
+
+För att ta ner filer från github till din personliga dator använder du 'git pull'.
+
+'git pull origin master' drar ner origin från github och drar in den till master på din dator.
+
+Både pull och push har alltså konventionen 'git pu.. remote-name local-branch'.
+
+En anledning till att du behöver göra git pull manuellt istället för att git, som exempelvis dropbox, automatiskt synkas
+är att detger dig mer kontroll. Detta gäller särskilt om det är flera personer som samarbetar i ett projekt då kaos lätt
+uppstår när flera personer gör ändringar parallellt med varandra.
+
+
 
