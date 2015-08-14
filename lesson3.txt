@@ -18,5 +18,12 @@ En anledning till att du behöver göra git pull manuellt istället för att git
 är att detger dig mer kontroll. Detta gäller särskilt om det är flera personer som samarbetar i ett projekt då kaos lätt
 uppstår när flera personer gör ändringar parallellt med varandra.
 
+Vill du skapa en egen version av ett annat projekt använder du dig av funktionen fork på github. Detta skapar ett repository
+med en exakt kopia av det projekt du var intresserad av, men under ditt konto istället. 
+Fork motsvarar att göra clone på githubs servrar och låter dig redigera projekt där du inte annars hade haft skrivrättigheter.
+
+Skillnaden mellan fork, clone och branch är att en fork är en kopia mellan githubs servrar, en klon är en kopia till din dator
+och slutligen en branch är ett parallellt spår i ett och samma repository.
+
 
 
