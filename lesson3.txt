@@ -1,0 +1,10 @@
+För att lägga upp filer på Github behöver du ett konto och ett repository där. 
+När du har detta använder du öljande kommandon.
+
+'git remote' (listar vilka remotes du har lagt till i git)
+'git remote add name url' (lägger till en ny remote med valt namn, url ska vara en url till ditt repository)
+'git push namn branch' (skriver vald branch ex. master till vald remote ex. origin)
+
+Att ha filer i molnet på github ger dig frihet att arbeta från olika datorer,
+underlättar samarbete med andra och ger dig en backup då du har en kopia av all din historik i git i molnet.
+
