@@ -25,5 +25,17 @@ Fork motsvarar att göra clone på githubs servrar och låter dig redigera proje
 Skillnaden mellan fork, clone och branch är att en fork är en kopia mellan githubs servrar, en klon är en kopia till din dator
 och slutligen en branch är ett parallellt spår i ett och samma repository.
 
+Ifall det har skett ändringar både lokalt och på github kan en konflikt uppstå. För att dra ner den mest aktuella versionen
+från github till din lokala master använder du 'git fetch'. Du kan därefter göra en merge om det skulle behövas. 
+Om du använder kommandot 'git pull' kommer git automatiskt göra både fetch och merge.
+
+'git fetch origin'
+'git merge origin/master master'
+= 'git pull origin'
+
+En bra anledning att git håller senaste ända status på origin/master i minnet lokalt är att
+det blir lätt att se vad du har ändrat sedan du senast gjorde en git pull. Det underlättar också
+när du ska göra en git fetch eller pull om det har skett andra förändringar online. 
+
 
 
