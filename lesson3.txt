@@ -44,5 +44,9 @@ innan ni drar in ändringarna i master, eller inte om ni kommer fram till att de
 Att samarbeta utan git kan vara knepigt då det är svårt att arbeta parallellt i samma fil eftersom du ofta saknar möjlighet att
 hitta skillnader i parallella "branches" och dessutom saknar merge-verktyg.
 
+Att arbeta i en separat branch kan göra processen lite mer komplex än att arbeta direkt mot master och origin, men fördelen är
+att du kan hålla de ändringar som pågår i den branchen separata från det huvudsakliga arbetsflödet tills dess att allt är klart
+och färdigdiskuterat med eventuella gruppmedlemmar.
+
 
 
