@@ -41,5 +41,8 @@ Om du vill ha feedback på en feature innan du pusharden till origin/master kan 
 en separat branch som du kan pusha istället. Därerfter kan du skapa en pull request på github och samla in feedback
 innan ni drar in ändringarna i master, eller inte om ni kommer fram till att den inte är redo.
 
+Att samarbeta utan git kan vara knepigt då det är svårt att arbeta parallellt i samma fil eftersom du ofta saknar möjlighet att
+hitta skillnader i parallella "branches" och dessutom saknar merge-verktyg.
+
 
 
