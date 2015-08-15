@@ -35,7 +35,11 @@ Om du använder kommandot 'git pull' kommer git automatiskt göra både fetch oc
 
 En bra anledning att git håller senaste ända status på origin/master i minnet lokalt är att
 det blir lätt att se vad du har ändrat sedan du senast gjorde en git pull. Det underlättar också
-när du ska göra en git fetch eller pull om det har skett andra förändringar online. 
+när du ska göra en git fetch eller pull om det har skett andra förändringar online.
+
+Om du vill ha feedback på en feature innan du pusharden till origin/master kan du göra ändringen i
+en separat branch som du kan pusha istället. Därerfter kan du skapa en pull request på github och samla in feedback
+innan ni drar in ändringarna i master, eller inte om ni kommer fram till att den inte är redo.
 
 
 
