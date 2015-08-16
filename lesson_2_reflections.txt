@@ -8,13 +8,13 @@ Filer i 'staging area' är de som kommer att läggas in i en 'commit', på så sätt 
 filer som ska uppdateras vid varje commit. Detta underlättar när du vill tillse att varje commit motsvaras av
 en logiskt sammanhängande förändring.
 
-För att skapa nya versioner eller utveckla nya features parallellt med master-versionen kanmananvända kommandot 'git branch'.
+För att skapa nya versioner eller utveckla nya features parallellt med master-versionen kan man använda kommandot 'git branch'.
 Utan parametrar listar det alla 'branches' och visar vilken du befinner dig i. För att skapa en ny branch använder du istället
 'git branch name' och skapar därmed en ny branch med namnet 'name'. Därefter kan du anbända 'git checkout name'och 
 'git checkout master' för att växla mellan olika parallella versioner.
 
 Att skapa en ny branch är användbart när du vill påbörja en ny feature eller fixa en bugg. Det låter dig även göra ändringar
- som inte nödvändigtvis ska in i mastern, till exempel en ny feature som du inte är säker på om den kommer vara lyckad. 
+som inte nödvändigtvis ska in i mastern, till exempel en ny feature som du inte är säker på om den kommer vara lyckad. 
 Branches låter även en grupp arbeta på flera parallella projekt.
 
 Branches kan tänkas på som en trädstruktur och att visualisera dessa som ett sådant kan vara användbart för att se hur olika commits
@@ -26,4 +26,3 @@ För att sammanfoga två branches till en gemensam version skriver du 'get merge o
 Git använder sig av en automatisk merge om det inte finns några tvetydigheter, men ifall två förändringar skett i närliggande områden
 uppstår en konflikt som måste lösas innan en merge kan slutföras. Git lägger då in båda kolliderande segmenten i filen 
 i ditt working directory och markerar ut dem med '<<<<<' och '>>>>>>'. 
-
