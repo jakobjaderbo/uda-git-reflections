@@ -1,5 +1,5 @@
 ﻿För att lägga upp filer på Github behöver du ett konto och ett repository där. 
-När du har detta använder du öljande kommandon.
+När du har detta använder du följande kommandon.
 
 'git remote' (listar vilka remotes du har lagt till i git)
 'git remote add name url' (lägger till en ny remote med valt namn, url ska vara en url till ditt repository)
@@ -48,5 +48,6 @@ Att arbeta i en separat branch kan göra processen lite mer komplex än att arbe
 att du kan hålla de ändringar som pågår i den branchen separata från det huvudsakliga arbetsflödet tills dess att allt är klart
 och färdigdiskuterat med eventuella gruppmedlemmar.
 
-
-
+Om du har gjort en fork av ett projekt kan det hända att din fork blivit inaktuell då ändringar accepterats in till originalet.
+För att hålla din version up to date kan du behöva dra ner dessa ändringar, för att göra detta behöver du lägga in alla versioner
+du vill kunna synca mellan som remotes. När din branch väl är i sync, är det mer sannolikt att dina pull requests kommer gå igenom.
